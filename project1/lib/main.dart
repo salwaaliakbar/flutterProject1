@@ -107,13 +107,8 @@ class _MyWidgetState extends State<MyApp> {
           ],
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: const Color.fromARGB(255, 183, 153, 234),
-          onPressed: () {},
-          child: const Icon(
-            Icons.add,
-            color: Color.fromARGB(255, 183, 153, 234),
-          ),
-        ),
+            backgroundColor: const Color.fromARGB(255, 183, 153, 234),
+            onPressed: () {}),
       ),
     );
   }
